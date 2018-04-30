@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script>
+  if (navigator.serviceWorker != null) {
+    navigator.serviceWorker.register('sw.js')
+    .then(function(registration) {
+      console.log('Registered events at scope: ', registration.scope);
+    });
+  }
+</script>
   <head>
 <link rel="manifest" href="manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
