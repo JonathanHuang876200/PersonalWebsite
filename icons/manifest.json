@@ -1,5 +1,9 @@
-{
- "name": "App",
+{"name": "PersonalWebsite",
+  "short_name": "PW",
+  "description": "IDK",
+  "lang": "zh-TW",
+  "start_url": "/https://jonathanhuang876200.github.io/PersonalWebsite/",
+  "display": "standalone",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
